@@ -250,7 +250,7 @@ p {
 
 .school__name,
 .school__period {
-  color: var(--color-light-grey);
+  color: var(--color-dark-grey);
 }
 
 .school__name {
@@ -418,4 +418,40 @@ p {
 .project__description span {
   margin-left: 10%;
   margin-right: 10%;
+}
+
+/* Certificate */
+
+.certificate {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.certificate img {
+  width: 80px;
+  height: 40px;
+}
+
+.certificate__description {
+  margin: 0 16px;
+  text-align: left;
+}
+
+.certificate__name,
+.certificate__period {
+  color: var(--color-set-darkblue);
+}
+
+.certificate__name {
+  font-size: var(--font-small);
+  font-weight: var(--weight-semi-bold);
+}
+
+.certificate__period {
+  font-size: var(--font-micro);
+}
+
+#certificate {
+  background-color: var(--color-light-white);
 }
